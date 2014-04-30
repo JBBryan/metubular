@@ -1,6 +1,10 @@
 <h2>All Videos:</h2>
 <ul>
 <% @videos.each do |video| %>
-<li><%= link_to video.title, "/videos/#{video.id}" %></li>
+<li><%= link_to video.title, "/videos/#{video.title}" %></li>
 <% end %>
+<br>
+<br>
+<br>
+<a href="/videos/new">Submit New</a>
 </ul>

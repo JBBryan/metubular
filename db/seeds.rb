@@ -14,6 +14,7 @@ User.create([
     name: "Mike Ornellas",
     email: "mike@themakersquare.com"
   }
+
   ])
 
 Video.create([
@@ -34,5 +35,28 @@ Video.create([
     description: "Cold 3D Animation",
     youtube_id: "FLzfXQSPBOg",
     user_id: 1
+  }
+  ])
+
+Comment.create([
+  {
+    content: "Fightin' round the world!",
+    video_id: 1
+  },
+  {
+    content: "Russell Crowe is a racist!",
+    video_id: 1
+  },
+  {
+    content: "I had 3 siezures to this horrible film",
+    video_id: 2
+  },
+  {
+    content: "I'd rather sever my penis with a dull knife than watch this trype",
+    video_id: 2
+  },
+  {
+    content: "FIRST!",
+    video_id: 3
   }
   ])
